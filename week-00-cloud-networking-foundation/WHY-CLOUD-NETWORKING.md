@@ -308,9 +308,7 @@ Automation + Elastic Scale
 >
 > **Cloud networking manages software-defined infrastructure.**
 
-Today, networking isn't just routers and cables.
 
-It is programmable, automated, scalable, and powers every modern cloud platform.
 
 
 Hybrid connectivity

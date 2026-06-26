@@ -1,152 +1,344 @@
-# 📘 Course Roadmap – NetEng to MultiCloud
+# AWS Certified Solutions Architect – Associate (SAA-C03) Roadmap
 
-This roadmap outlines the structured 4-week learning journey designed for traditional network engineers transitioning to multi-cloud networking.
+## Phase 1: Cloud Computing Fundamentals
 
----
-
-# 🎯 Learning Objective
-
-By the end of this bootcamp, participants will be able to:
-
-- Design cloud-native network architectures
-- Configure hybrid VPN connectivity
-- Understand cloud routing behavior
-- Compare AWS, Azure, and GCP networking models
-- Design basic multi-cloud connectivity
-- Troubleshoot routing and VPN failures
-
----
-
-# 🗓 Week-by-Week Breakdown
-
----
-
-## 🟢 Week 1 – AWS Networking Foundations
-
-### Topics Covered
-
-- VPC Architecture Deep Dive
-- Subnet Design (Public vs Private)
-- Route Tables & Route Propagation
-- Internet Gateway & NAT Gateway
-- Site-to-Site VPN
-- Introduction to Transit Design
-
-### Hands-On Lab
-
-- Create VPC with multiple subnets
-- Configure routing
-- Establish VPN simulation
-- Validate traffic flow
-
-### Outcome
-
-Understand how AWS handles routing, segmentation, and hybrid connectivity.
+### Topics
+- What is Cloud Computing?
+- Benefits of Cloud Computing
+- Cloud Service Models
+  - IaaS
+  - PaaS
+  - SaaS
+- Deployment Models
+  - Public Cloud
+  - Private Cloud
+  - Hybrid Cloud
+  - Multi-Cloud
+- AWS Global Infrastructure
+  - Regions
+  - Availability Zones
+  - Edge Locations
+  - Local Zones
+  - Wavelength Zones
 
 ---
 
-## 🔵 Week 2 – Azure Networking Foundations
+## Phase 2: AWS Identity & Security
 
-### Topics Covered
+### IAM
+- Users
+- Groups
+- Roles
+- Policies
+- MFA
+- Password Policies
+- IAM Best Practices
 
-- VNet Architecture
-- Subnet Planning
-- Network Security Groups (NSG)
-- User Defined Routes (UDR)
-- Azure VPN Gateway
-- Hub-and-Spoke Concept
+### AWS Organizations
+- Organizational Units (OUs)
+- SCPs (Service Control Policies)
 
-### Hands-On Lab
+### KMS
+- Encryption
+- Customer Managed Keys
+- AWS Managed Keys
 
-- Deploy VNet with segmented subnets
-- Configure UDR
-- Establish VPN gateway
-- Test connectivity & routing behavior
-
-### Outcome
-
-Understand Azure’s system routes and how routing differs from AWS.
-
----
-
-## 🔴 Week 3 – GCP Networking Foundations
-
-### Topics Covered
-
-- Global VPC Model
-- Regional Subnets
-- Firewall Rules (Distributed Model)
-- Cloud Router (BGP)
-- HA VPN Architecture
-
-### Hands-On Lab
-
-- Deploy Global VPC
-- Configure Cloud Router
-- Establish BGP-based VPN
-- Validate route exchange
-
-### Outcome
-
-Understand GCP’s global networking model and dynamic routing behavior.
+### Secrets Manager
+### Systems Manager Parameter Store
 
 ---
 
-## 🟣 Week 4 – Multi-Cloud Architecture & Design
+## Phase 3: Networking (VPC)
 
-### Topics Covered
+### VPC Basics
+- CIDR
+- IPv4 & IPv6
+- Elastic IP
 
-- AWS ↔ Azure VPN Architecture
-- BGP Route Exchange Concepts
-- Failover & High Availability Design
-- Centralized vs Distributed Egress
-- Segmentation Strategy Across Clouds
+### Subnets
+- Public Subnet
+- Private Subnet
 
-### Capstone Project
+### Route Tables
 
-Participants will:
+### Internet Gateway
 
-- Design a multi-cloud hybrid architecture
-- Document routing flow
-- Explain failover behavior
-- Present security controls
+### NAT Gateway
 
-### Outcome
+### NAT Instance
 
-Ability to design and explain real-world multi-cloud connectivity.
+### VPC Endpoints
+- Gateway Endpoint
+- Interface Endpoint
 
----
+### Security Groups
 
-# 🧠 Key Concepts Emphasized Throughout
+### Network ACL
 
-- Control Plane vs Data Plane
-- Static vs Dynamic Routing
-- Route Propagation Differences
-- Hybrid Design Patterns
-- Real-World Troubleshooting Approach
+### VPC Peering
 
----
+### Transit Gateway
 
-# 📌 Estimated Effort
+### VPN
 
-- 4 Weeks
-- 2 Live Sessions per Week
-- ~3–4 Hours Hands-On Practice per Week
+### Direct Connect
 
----
-
-# 🚧 Future Enhancements (Phase 2)
-
-- Advanced BGP Design
-- Transit Architectures Comparison
-- Cloud Firewall Insertion Models
-- Multi-Region Failover Design
-- Cost Optimization in Cloud Networking
+### DNS
+- Route 53
+- Hosted Zones
+- Routing Policies
 
 ---
 
-# 🔥 End Goal
+## Phase 4: Compute Services
 
-Transition from:
+### EC2
 
-On-Prem Network Engineer ➜ Multi-Cloud Networking Professional
+- AMI
+- Instance Types
+- Launch Templates
+- Key Pairs
+- User Data
+- Instance Metadata
+- Placement Groups
+- Elastic IP
+- ENI
+- Auto Recovery
+
+### Auto Scaling Group
+
+### Elastic Load Balancer
+
+- Application Load Balancer (ALB)
+- Network Load Balancer (NLB)
+- Gateway Load Balancer (GWLB)
+
+### Lambda
+
+### Elastic Beanstalk
+
+### ECS
+
+### EKS
+
+### Fargate
+
+### Lightsail
+
+---
+
+## Phase 5: Storage Services
+
+### Amazon S3
+
+- Storage Classes
+- Versioning
+- Lifecycle Policies
+- Replication
+- Object Lock
+- Encryption
+- Multipart Upload
+- Transfer Acceleration
+- Static Website Hosting
+- Pre-Signed URLs
+
+### EBS
+
+### EFS
+
+### FSx
+
+### Storage Gateway
+
+### AWS Backup
+
+---
+
+## Phase 6: Database Services
+
+### RDS
+
+- MySQL
+- PostgreSQL
+- MariaDB
+- Oracle
+- SQL Server
+- Aurora
+
+### DynamoDB
+
+### ElastiCache
+
+### Redshift
+
+### DocumentDB
+
+### Neptune
+
+### Keyspaces
+
+### Timestream
+
+---
+
+## Phase 7: Application Integration
+
+### SQS
+
+### SNS
+
+### EventBridge
+
+### Amazon MQ
+
+### Step Functions
+
+### AppSync
+
+---
+
+## Phase 8: Monitoring & Management
+
+### CloudWatch
+
+### CloudTrail
+
+### AWS Config
+
+### Trusted Advisor
+
+### Systems Manager
+
+### CloudFormation
+
+### AWS Health Dashboard
+
+### Personal Health Dashboard
+
+---
+
+## Phase 9: Security Services
+
+### AWS Shield
+
+### AWS WAF
+
+### GuardDuty
+
+### Inspector
+
+### Macie
+
+### Detective
+
+### Security Hub
+
+---
+
+## Phase 10: Migration Services
+
+### AWS DMS
+
+### Application Migration Service (MGN)
+
+### Snow Family
+
+- Snowcone
+- Snowball
+- Snowmobile
+
+### DataSync
+
+### Transfer Family
+
+---
+
+## Phase 11: Analytics & Machine Learning (High-Level)
+
+### Athena
+
+### Glue
+
+### EMR
+
+### Kinesis
+
+### QuickSight
+
+### SageMaker (Overview)
+
+---
+
+## Phase 12: Cost Optimization
+
+### AWS Pricing Models
+
+- On-Demand
+- Reserved Instances
+- Savings Plans
+- Spot Instances
+- Dedicated Hosts
+
+### Cost Explorer
+
+### AWS Budgets
+
+### Cost and Usage Reports
+
+### Pricing Calculator
+
+---
+
+## Phase 13: High Availability & Disaster Recovery
+
+### Multi-AZ
+
+### Read Replicas
+
+### Backup Strategies
+
+### Cross-Region Replication
+
+### Pilot Light
+
+### Warm Standby
+
+### Multi-Site Active-Active
+
+---
+
+## Phase 14: AWS Well-Architected Framework
+
+### Pillars
+
+- Operational Excellence
+- Security
+- Reliability
+- Performance Efficiency
+- Cost Optimization
+- Sustainability
+
+
+
+---
+
+## Phase 15: Exam Preparation
+
+### Review
+
+- AWS Cheat Sheets
+- Whitepapers
+- FAQs
+
+### Practice
+
+- Scenario-Based Questions
+- Mock Exams
+- Time Management
+
+### Revision
+
+- Common Architecting Patterns
+- Service Comparisons
+- Cost Optimization Questions
+- Security Scenarios

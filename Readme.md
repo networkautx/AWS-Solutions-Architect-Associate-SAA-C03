@@ -44,6 +44,15 @@ These domains align with the official SAA-C03 exam guide. :contentReference[oaic
 
 ---
 
+## 📚 Official Resources
+
+| Resource | Link |
+|----------|------|
+| AWS SAA-C03 Exam Guide | https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html |
+| AWS Certification | https://aws.amazon.com/certification/ |
+| AWS Documentation | https://docs.aws.amazon.com/ |
+| AWS Skill Builder | https://skillbuilder.aws/ |
+
 # 🚀 Hands-on Labs
 
 - Build a VPC from scratch

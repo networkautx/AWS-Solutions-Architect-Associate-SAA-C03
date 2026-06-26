@@ -53,6 +53,13 @@ These domains align with the official SAA-C03 exam guide. :contentReference[oaic
 | AWS Documentation | https://docs.aws.amazon.com/ |
 | AWS Skill Builder | https://skillbuilder.aws/ |
 
+---
+## 📚 Exam Summary
+
+➡️ **[AWS SAA-C03 Exam Summary](Exam-Summary.md)**
+
+---
+
 # 🚀 Hands-on Labs
 
 - Build a VPC from scratch
